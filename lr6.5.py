@@ -1,0 +1,8 @@
+text = input('введите текст: ')
+slovo = input('введите слово для поиска: ')
+count = text.count(slovo)
+index = text.find(slovo)
+print(f'слово встречается {count} раз')
+print(f'индекс первого встреченного слово: {index}')
+chistka = text.replace(slovo, '')
+print('текст без слова', chistka)

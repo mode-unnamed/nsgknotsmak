@@ -1,0 +1,5 @@
+famil, imya, otchetstvo = input("Введите ФИО через пробел: ").split()
+famil= famil.capitalize()
+imya = imya.capitalize()
+otchetstvo = otchetstvo.capitalize()
+print(f"Добро пожаловать {famil} {imya} {otchetstvo}")
